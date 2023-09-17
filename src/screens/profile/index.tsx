@@ -28,7 +28,7 @@ const ProfileScreen = () => {
         <View className="flex-1 px-2.5 pt-3 bg-violet-950 ">
           <View className="items-center">
             {profileImage ? (
-              // <Text onPress={navigateToProjectDetail}>WHY</Text>
+         
               <Image
                 source={profileImage[0]}
                 style={{ width: 200, height: 200 }}
