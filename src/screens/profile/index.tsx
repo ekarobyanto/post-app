@@ -14,7 +14,7 @@ import { useAssets } from "expo-asset";
 
 const ProfileScreen = () => {
   const [profileImage, error] = useAssets([
-    require("../../../assets/profile.png"),
+    require("../../../assets/profile.jpg"),
   ]);
   const navigation =
     useNavigation<ProfileScreenNavigationType<"ProfileScreen">>();
